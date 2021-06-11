@@ -71,6 +71,58 @@
   height: 60px;  
 }
 
+    
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+  margin-left: 100px;
+}
+
+.image {
+	margin: 100px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3b778a;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 5s ease;
+  margin-left: 100px;
+}
+
+.container:hover .overlay {
+	opacity: 0.5;
+  width: 100%;
+  margin-left: 100px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -94,6 +146,16 @@
 
 
 </div>
+
+<div><h1 style="margin: 100px;">IN THE LIBRARY</h1></div>
+<div class="container">
+  <img src="inthelibrary.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">in the library</div>
+  </div>
+</div>
+
+
 
 <div class="topnav" id="rcorners2">
 
